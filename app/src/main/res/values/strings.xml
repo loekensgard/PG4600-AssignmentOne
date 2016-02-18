@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">InnleveringEn</string>
+    <string name="title_activity_startskjerm">Startskjerm</string>
+    <string name="PlayerOne">Name</string>
+    <string name="PlayerTwo">Name</string>
+    <string name="txtPlayerTwo">PlayerTwo</string>
+    <string name="txtPlayerOne">PlayerOne</string>
+    <string name="btnGoToSpillskjerm">Go</string>
+    <string name="btnResults">Results</string>
+    <string name="btnRestart">Restart</string>
+    <string name="btnBack">Go Back</string>
+</resources>

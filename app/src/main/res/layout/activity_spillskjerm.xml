@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="pg4600.loktho14.student.westerdals.innleveringen.Spillskjerm">
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/btnTop1"
+        android:layout_marginTop="85dp"
+        android:background="#da8585"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="2sp"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/btnTop2"
+        android:background="#da8585"
+        android:layout_above="@+id/btnMid1"
+        android:layout_toEndOf="@+id/btnTop1"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/btnTop3"
+        android:background="#da8585"
+        android:layout_above="@+id/btnMid2"
+        android:layout_toEndOf="@+id/btnTop2"
+        android:layout_marginBottom="2dp"
+        android:allowUndo="true" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/btnMid1"
+        android:background="#da8585"
+        android:layout_below="@+id/btnTop1"
+        android:layout_alignStart="@+id/btnTop1"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/btnMid2"
+        android:background="#da8585"
+        android:layout_alignBottom="@+id/btnMid1"
+        android:layout_toEndOf="@+id/btnMid1"
+        android:layout_marginRight="2dp"
+        android:layout_marginLeft="2dp"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/btnMid3"
+        android:background="#da8585"
+        android:layout_alignBottom="@+id/btnMid2"
+        android:layout_toEndOf="@+id/btnMid2"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/btnBot1"
+        android:background="#da8585"
+        android:layout_below="@+id/btnMid1"
+        android:layout_alignStart="@+id/btnMid1"
+        android:layout_marginTop="2dp"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/btnBot2"
+        android:background="#da8585"
+        android:layout_below="@+id/btnMid1"
+        android:layout_toEndOf="@+id/btnMid1"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/btnBot3"
+        android:background="#da8585"
+        android:layout_alignBottom="@+id/btnBot2"
+        android:layout_toEndOf="@+id/btnBot2"
+        android:layout_marginTop="2dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/txtPlayerOne"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/btnTop1"
+        android:text="@string/txtPlayerOne" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/txtPlayerTwo"
+        android:text="@string/txtPlayerTwo"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/btnTop3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnResults"
+        android:id="@+id/btnResults"
+        android:layout_below="@+id/btnBot2"
+        android:layout_alignEnd="@+id/btnBot3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnRestart"
+        android:id="@+id/btnRestart"
+        android:layout_below="@+id/btnBot1"
+        android:layout_alignStart="@+id/btnBot1" />
+
+</RelativeLayout>
